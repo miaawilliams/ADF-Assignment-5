@@ -1,0 +1,71 @@
+.main-content {
+  padding: 0 24px 48px;
+}
+
+
+/* Used AI to help create CSS for cart section */
+.cart-section {
+  margin-top: 40px;
+  padding: 24px;
+  background: rgba(255, 255, 255, 0.04);
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  border-radius: 16px;
+}
+
+.cart-section h2 {
+  margin-top: 0;
+  color: #fff;
+  font-size: 2rem;
+}
+
+.cart-list {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.cart-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+  padding: 16px 18px;
+  background: rgba(255, 255, 255, 0.06);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-radius: 12px;
+}
+
+.cart-item-name {
+  margin: 0;
+  color: #fff;
+  font-size: 1.1rem;
+}
+
+.cart-item-price {
+  margin: 0;
+  color: #d8f3ff;
+  font-weight: 600;
+}
+
+.remove-from-cart-btn {
+  border: none;
+  border-radius: 8px;
+  background: #ff4d4f;
+  color: #fff;
+  padding: 8px 12px;
+  cursor: pointer;
+}
+
+.empty-cart {
+  color: #d0d9e5;
+  font-size: 1.1rem;
+  margin: 0;
+}
+
+.cart-total {
+  margin-top: 18px;
+  font-size: 1.2rem;
+  font-weight: 700;
+  color: #a7f3d0;
+  text-align: right;
+}

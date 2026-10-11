@@ -1,0 +1,27 @@
+.footer {
+    background-color: rgb(29, 29, 82);
+    padding: 25px;
+}
+
+.footer-logo {
+    font-family: 'Courier New', Courier, monospace;
+    color: rgb(250, 250, 250);
+    text-align: center;
+    font-size: 25px;
+    padding-bottom: 20px;
+}
+
+.footer-menu {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px; 
+    padding-bottom: 20px;
+}
+.footer-menu a {
+    font-family: 'Courier New', Courier, monospace;
+    color: rgb(255, 255, 255);
+}
+.footer-menu a:hover {
+    color: rgb(78, 178, 255);
+}

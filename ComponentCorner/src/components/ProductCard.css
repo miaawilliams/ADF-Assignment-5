@@ -1,0 +1,48 @@
+.product-card {
+    background: rgb(255, 254, 251);
+    gap: 8px;
+    border-radius: 8px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+    margin-bottom: 16px;
+    padding: 16px;
+    width: 400px;
+    align-items: center;
+}
+
+.products-title {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 25px;
+    color: rgb(255, 255, 255);
+    align-items: center;
+    margin-bottom: 12px;
+}
+
+.product-image {
+    width: 300px;
+    height: 300px;
+    align-self: center;
+}
+
+.product-header {
+    font-size: 18px;
+    font-family: 'Courier New', Courier, monospace;
+    color: black;
+    align-items: center;
+    margin-bottom: 12px;
+}
+
+.product-name {
+    font: courier, monospace;
+    color: rgb(87, 130, 248);
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+.price {
+    font: courier, monospace;
+    color: rgb(0, 0, 0);
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
