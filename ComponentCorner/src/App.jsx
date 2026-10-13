@@ -93,6 +93,7 @@ function App() {
           <Route path="/products/:id" element={<ProductsPage products={products} addToCart={addToCart}/>}/>
           <Route path="/cart" element={<CartPage products={cart} removeFromCart={removeFromCart}/>}/>
         </Routes>
+        <Footer />
       </div>
     </BrowserRouter>
   );
